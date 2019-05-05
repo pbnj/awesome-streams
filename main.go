@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"sort"
+	"strings"
 	"text/template"
 
 	"gopkg.in/yaml.v2"
@@ -46,6 +48,17 @@ func main() {
 		log.Fatalln("cannot unmarshal YAML:", err)
 	}
 
+	// sort alphabetically by category
+	sort.Slice(ls, func(i, j int) bool {
+		return ls[i].Category < ls[j].Category
+	})
+	// sort alphabetically by streamer name
+	for _, l := range ls {
+		sort.Slice(l.Streamers, func(i, j int) bool {
+			return strings.ToUpper(l.Streamers[i].Name) < strings.ToUpper(l.Streamers[j].Name)
+		})
+	}
+
 	json, err := json.MarshalIndent(ls, "", "  ")
 	if err != nil {
 		log.Fatalln("cannout marshal JSON:", err)
@@ -56,7 +69,18 @@ func main() {
 		log.Fatalln("cannot write JSON:", err)
 	}
 
-	tmpl, err := template.New("readme.tmpl").ParseFiles("template/readme.tmpl")
+	// helper functions
+	funcMap := template.FuncMap{
+		"dashed": func(word string) string {
+			word = strings.ToLower(word)
+			word = strings.Replace(word, " ", "-", -1)
+			word = strings.Replace(word, "/", "", -1)
+			return word
+		},
+		"titled": strings.Title,
+	}
+
+	tmpl, err := template.New("readme.tmpl").Funcs(funcMap).ParseFiles("template/readme.tmpl")
 	if err != nil {
 		log.Fatalln("cannot parse template", err)
 	}
