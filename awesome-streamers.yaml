@@ -1,0 +1,264 @@
+--- # ---
+- category: rust
+  streamers:
+    - name: David Pedersen
+      social: https://twitter.com/davidpdrsn
+      streams:
+        youtube: https://www.youtube.com/channel/UCDmSWx6SK0zCU2NqPJ0VmDQ
+        twitch: https://www.twitch.tv/davidpdrsn
+      topics:
+        - Web
+        - Dev Utils
+    - name: Ferris
+      social: https://twitter.com/ferristweetsnow
+      streams:
+        twitch: https://www.twitch.tv/ferrisstreamsstuff
+      topics:
+        - Game Emulators
+    - name: Jon Gjengset
+      social: https://twitter.com/jonhoo
+      streams:
+        youtube: https://www.youtube.com/c/JonGjengset
+      topics:
+        - Networking
+        - Async
+        - Porting
+    - name: Ryan Levick
+      social: https://twitter.com/ryan_levick
+      streams:
+        twitch: https://www.twitch.tv/ryanlevick
+      topics:
+        - Runtime
+        - Async
+        - Wasm
+    - name: Russell
+      social: https://twitter.com/stainlessio
+      streams:
+        twitch: https://www.twitch.tv/stainlessio
+      topic:
+        - Functional Rust
+    - name: Micah Elizabeth Scott
+      social: https://twitter.com/scanlime
+      streams:
+        twitch: https://twitch.tv/scanlime
+        youtube: https://www.youtube.com/user/micahjd
+      topics:
+        - reverse engineering
+        - rust
+        - c++
+        - hardware
+
+- category: go
+  streamers:
+    - name: Heptio TGIK
+      streams:
+        youtube: https://www.youtube.com/channel/UCjQU5ZI2mHswy7OOsii_URg
+      topics:
+        - go
+        - kubernetes
+        - cloud native
+    - name: Mark Mandel
+      social: https://twitter.com/neurotic
+      streams:
+        twitch: https://www.twitch.tv/markmandel
+        youtube: https://www.youtube.com/user/marksmandel
+      topics:
+        - kubernetes
+        - game development
+    - name: Brian Ketelsen
+      social: https://twitter.com/bketelsen
+      streams:
+        twitch: https://www.twitch.tv/bketelsen
+        youtube: https://www.youtube.com/channel/UCe-2wkt7S-5jtVqS2r_K5vA
+      topics:
+        - go
+        - azure
+        - windows
+        - dev tooling
+    - name: Francesc Campoy
+      social: https://twitter.com/francesc
+      streams:
+        youtube: https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw
+      topics:
+        - go
+        - dev tooling
+
+- category: c
+  streamers:
+    - name: Theodore Dubois
+      social: https://twitter.com/tblodt
+      streams:
+        twitch: https://www.twitch.tv/tbodt_
+      topics:
+        - ios
+
+- category: c#
+  streamers:
+    - name: Jeff Fritz
+      social: https://twitter.com/csharpfritz
+      streams:
+        twitch: https://www.twitch.tv/videos/419753654
+      topics:
+        - Dotnet
+        - C#
+    - name: Christopher Schipper
+      streams:
+        twitch: https://www.twitch.tv/electrichavoc
+        topics:
+          - C#
+          - visual studio
+          - azure
+
+- category: javascript
+  streamers:
+    - name: Michael Chan
+      social: https://twitter.com/chantastic
+      streams:
+        youtube: https://www.youtube.com/channel/UCXpmUxvG37qpckRHdkstf5w
+      topics:
+        - react
+        - javascript
+        - web
+    - name: Kassandra Perch
+      social: https://twitter.com/nodebotanist
+      streams:
+        twitch: https://www.twitch.tv/nodebotanist
+      topics:
+        - hardware
+        - IOT
+        - robotics
+    - name: Erik Guzman
+      social: https://twitter.com/talk2MeGooseman
+      streams:
+        twitch: https://www.twitch.tv/talk2megooseman
+      topics:
+        - javascript
+        - web
+    - name: Suz Hinton
+      social: https://twitter.com/noopkat
+      streams:
+        twitch: https://www.twitch.tv/noopkat
+        youtube: https://www.youtube.com/channel/UCoFU24KMXmCi4Sl3KIFPSVg
+      topics:
+        - IoT
+        - web
+        - hardware
+        - 3D
+        - node.js
+        - javascript
+    - name: Feross Aboukhadijeh
+      social: https://twitter.com/feross
+      streams:
+        twitch: https://www.twitch.tv/ferossity
+      topics:
+        - javascript
+        - web
+        - node.js
+        - frameworks
+        - dev tooling
+    - name: Thorsten Lorenz
+      social: https://twitter.com/thlorenz
+      streams:
+        twitch: https://www.twitch.tv/thlorenz
+      topics:
+        - node.js
+        - module development
+        - dev tooling
+        - web
+        - javascript
+    - name: Shirley Wu
+      social: https://twitter.com/sxywu
+      streams:
+        twitch: https://www.twitch.tv/sxywu
+      topics:
+        - Data Visualisation
+        - React
+        - javascript
+    - name: Sean Larkin
+      social: https://twitter.com/TheLarkInn
+      streams:
+        twitch: https://www.twitch.tv/thelarkinn
+      topics:
+        - webpack
+        - javascript
+        - gaming
+    - name: Kyle Shevlin
+      social: https://twitter.com/kyleshevlin
+      streams:
+        twitch: https://www.twitch.tv/kyleshevlin
+      topics:
+        - React
+        - Functional Javascript
+        - Web
+    - name: Brian Clark
+      social: https://twitter.com/_clarkio
+      streams:
+        twitch: https://www.twitch.tv/clarkio
+      topics:
+        - node.js
+        - javascript
+        - iot
+        - web
+        - swift
+    - name: Yosh
+      social: https://twitter.com/yoshuawuyts
+      streams:
+        twitch: https://www.twitch.tv/yoshuawuyts
+      topics:
+        - node.js
+        - javascript
+        - choo
+        - tooling development
+    - name: Tierney Cyren
+      social: https://twitter.com/bitandbang
+      streams:
+        twitch: https://www.twitch.tv/bitandbang
+      topics:
+        - node.js
+        - javascript
+        - oss
+    - name: MPJ
+      social: https://twitter.com/mpjme
+      streams:
+        twitch: https://www.twitch.tv/videos/420159934
+        youtube: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+      topics:
+        - javascript
+        - node.js
+        - web
+        - dev tooling
+
+- category: scala
+  streamers:
+    - name: Holden Karau
+      social: https://twitter.com/holdenkarau
+      streams:
+        twitch: https://www.twitch.tv/holdenkarau
+      topics:
+        - scala
+        - spark
+        - java
+        - python
+        - beam
+
+- category: security
+  streamers:
+    - name: Tanya Janca
+      social: https://twitter.com/shehackspurple
+      streams:
+        youtube: https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ
+      topics:
+        - security
+        - web
+        - azure
+        - devops
+        - appsec
+        - dotnet
+    - name: Rob Fuller
+      social: https://twitter.com/mubix
+      streams:
+        twitch: https://www.twitch.tv/mub1x
+        youtube: https://www.youtube.com/mubix
+      topics:
+        - security
+        - hacker
