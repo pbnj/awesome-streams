@@ -12,7 +12,7 @@
 ## {{titled .Category}}
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 {{ range .Streamers }}|{{ titled .Name }}|{{ if .Social }}[Twitter]({{ .Social }}){{ end }}|{{ if .Streams }}{{ if .Streams.Twitch }}[Twitch]({{ .Streams.Twitch }}){{ end }}|{{ if .Streams.YouTube }}[YouTube]({{ .Streams.YouTube }}){{ end }}|{{ .Topics }}|
 {{ end -}}
 
