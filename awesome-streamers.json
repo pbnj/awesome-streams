@@ -1,5 +1,301 @@
 [
   {
+    "category": "c",
+    "streamers": [
+      {
+        "name": "Theodore Dubois",
+        "social": "https://twitter.com/tblodt",
+        "streams": {
+          "twitch": "https://www.twitch.tv/tbodt_",
+          "youtube": ""
+        },
+        "topics": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "c#",
+    "streamers": [
+      {
+        "name": "Christopher Schipper",
+        "social": "",
+        "streams": {
+          "twitch": "https://www.twitch.tv/electrichavoc",
+          "youtube": ""
+        },
+        "topics": null
+      },
+      {
+        "name": "Jeff Fritz",
+        "social": "https://twitter.com/csharpfritz",
+        "streams": {
+          "twitch": "https://www.twitch.tv/videos/419753654",
+          "youtube": ""
+        },
+        "topics": [
+          "Dotnet",
+          "C#"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "go",
+    "streamers": [
+      {
+        "name": "Brian Ketelsen",
+        "social": "https://twitter.com/bketelsen",
+        "streams": {
+          "twitch": "https://www.twitch.tv/bketelsen",
+          "youtube": "https://www.youtube.com/channel/UCe-2wkt7S-5jtVqS2r_K5vA"
+        },
+        "topics": [
+          "go",
+          "azure",
+          "windows",
+          "dev tooling"
+        ]
+      },
+      {
+        "name": "Francesc Campoy",
+        "social": "https://twitter.com/francesc",
+        "streams": {
+          "twitch": "",
+          "youtube": "https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw"
+        },
+        "topics": [
+          "go",
+          "dev tooling"
+        ]
+      },
+      {
+        "name": "Heptio TGIK",
+        "social": "",
+        "streams": {
+          "twitch": "",
+          "youtube": "https://www.youtube.com/channel/UCjQU5ZI2mHswy7OOsii_URg"
+        },
+        "topics": [
+          "go",
+          "kubernetes",
+          "cloud native"
+        ]
+      },
+      {
+        "name": "Mark Mandel",
+        "social": "https://twitter.com/neurotic",
+        "streams": {
+          "twitch": "https://www.twitch.tv/markmandel",
+          "youtube": "https://www.youtube.com/user/marksmandel"
+        },
+        "topics": [
+          "kubernetes",
+          "game development"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "javascript",
+    "streamers": [
+      {
+        "name": "Brian Clark",
+        "social": "https://twitter.com/_clarkio",
+        "streams": {
+          "twitch": "https://www.twitch.tv/clarkio",
+          "youtube": ""
+        },
+        "topics": [
+          "node.js",
+          "javascript",
+          "iot",
+          "web",
+          "swift"
+        ]
+      },
+      {
+        "name": "Daniel Shiffman",
+        "social": "https://twitter.com/shiffman",
+        "streams": {
+          "twitch": "",
+          "youtube": "https://www.youtube.com/user/shiffman"
+        },
+        "topics": [
+          "javascript",
+          "web",
+          "game development",
+          "data visualization"
+        ]
+      },
+      {
+        "name": "Erik Guzman",
+        "social": "https://twitter.com/talk2MeGooseman",
+        "streams": {
+          "twitch": "https://www.twitch.tv/talk2megooseman",
+          "youtube": ""
+        },
+        "topics": [
+          "javascript",
+          "web"
+        ]
+      },
+      {
+        "name": "Feross Aboukhadijeh",
+        "social": "https://twitter.com/feross",
+        "streams": {
+          "twitch": "https://www.twitch.tv/ferossity",
+          "youtube": ""
+        },
+        "topics": [
+          "javascript",
+          "web",
+          "node.js",
+          "frameworks",
+          "dev tooling"
+        ]
+      },
+      {
+        "name": "Kassandra Perch",
+        "social": "https://twitter.com/nodebotanist",
+        "streams": {
+          "twitch": "https://www.twitch.tv/nodebotanist",
+          "youtube": ""
+        },
+        "topics": [
+          "hardware",
+          "IOT",
+          "robotics"
+        ]
+      },
+      {
+        "name": "Kyle Shevlin",
+        "social": "https://twitter.com/kyleshevlin",
+        "streams": {
+          "twitch": "https://www.twitch.tv/kyleshevlin",
+          "youtube": ""
+        },
+        "topics": [
+          "React",
+          "Functional Javascript",
+          "Web"
+        ]
+      },
+      {
+        "name": "Michael Chan",
+        "social": "https://twitter.com/chantastic",
+        "streams": {
+          "twitch": "",
+          "youtube": "https://www.youtube.com/channel/UCXpmUxvG37qpckRHdkstf5w"
+        },
+        "topics": [
+          "react",
+          "javascript",
+          "web"
+        ]
+      },
+      {
+        "name": "MPJ",
+        "social": "https://twitter.com/mpjme",
+        "streams": {
+          "twitch": "https://www.twitch.tv/videos/420159934",
+          "youtube": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"
+        },
+        "topics": [
+          "javascript",
+          "node.js",
+          "web",
+          "dev tooling"
+        ]
+      },
+      {
+        "name": "Sean Larkin",
+        "social": "https://twitter.com/TheLarkInn",
+        "streams": {
+          "twitch": "https://www.twitch.tv/thelarkinn",
+          "youtube": ""
+        },
+        "topics": [
+          "webpack",
+          "javascript",
+          "gaming"
+        ]
+      },
+      {
+        "name": "Shirley Wu",
+        "social": "https://twitter.com/sxywu",
+        "streams": {
+          "twitch": "https://www.twitch.tv/sxywu",
+          "youtube": ""
+        },
+        "topics": [
+          "Data Visualisation",
+          "React",
+          "javascript"
+        ]
+      },
+      {
+        "name": "Suz Hinton",
+        "social": "https://twitter.com/noopkat",
+        "streams": {
+          "twitch": "https://www.twitch.tv/noopkat",
+          "youtube": "https://www.youtube.com/channel/UCoFU24KMXmCi4Sl3KIFPSVg"
+        },
+        "topics": [
+          "IoT",
+          "web",
+          "hardware",
+          "3D",
+          "node.js",
+          "javascript"
+        ]
+      },
+      {
+        "name": "Thorsten Lorenz",
+        "social": "https://twitter.com/thlorenz",
+        "streams": {
+          "twitch": "https://www.twitch.tv/thlorenz",
+          "youtube": ""
+        },
+        "topics": [
+          "node.js",
+          "module development",
+          "dev tooling",
+          "web",
+          "javascript"
+        ]
+      },
+      {
+        "name": "Tierney Cyren",
+        "social": "https://twitter.com/bitandbang",
+        "streams": {
+          "twitch": "https://www.twitch.tv/bitandbang",
+          "youtube": ""
+        },
+        "topics": [
+          "node.js",
+          "javascript",
+          "oss"
+        ]
+      },
+      {
+        "name": "Yosh",
+        "social": "https://twitter.com/yoshuawuyts",
+        "streams": {
+          "twitch": "https://www.twitch.tv/yoshuawuyts",
+          "youtube": ""
+        },
+        "topics": [
+          "node.js",
+          "javascript",
+          "choo",
+          "tooling development"
+        ]
+      }
+    ]
+  },
+  {
     "category": "rust",
     "streamers": [
       {
@@ -39,28 +335,6 @@
         ]
       },
       {
-        "name": "Ryan Levick",
-        "social": "https://twitter.com/ryan_levick",
-        "streams": {
-          "twitch": "https://www.twitch.tv/ryanlevick",
-          "youtube": ""
-        },
-        "topics": [
-          "Runtime",
-          "Async",
-          "Wasm"
-        ]
-      },
-      {
-        "name": "Russell",
-        "social": "https://twitter.com/stainlessio",
-        "streams": {
-          "twitch": "https://www.twitch.tv/stainlessio",
-          "youtube": ""
-        },
-        "topics": null
-      },
-      {
         "name": "Micah Elizabeth Scott",
         "social": "https://twitter.com/scanlime",
         "streams": {
@@ -73,287 +347,27 @@
           "c++",
           "hardware"
         ]
-      }
-    ]
-  },
-  {
-    "category": "go",
-    "streamers": [
-      {
-        "name": "Heptio TGIK",
-        "social": "",
-        "streams": {
-          "twitch": "",
-          "youtube": "https://www.youtube.com/channel/UCjQU5ZI2mHswy7OOsii_URg"
-        },
-        "topics": [
-          "go",
-          "kubernetes",
-          "cloud native"
-        ]
       },
       {
-        "name": "Mark Mandel",
-        "social": "https://twitter.com/neurotic",
+        "name": "Russell",
+        "social": "https://twitter.com/stainlessio",
         "streams": {
-          "twitch": "https://www.twitch.tv/markmandel",
-          "youtube": "https://www.youtube.com/user/marksmandel"
-        },
-        "topics": [
-          "kubernetes",
-          "game development"
-        ]
-      },
-      {
-        "name": "Brian Ketelsen",
-        "social": "https://twitter.com/bketelsen",
-        "streams": {
-          "twitch": "https://www.twitch.tv/bketelsen",
-          "youtube": "https://www.youtube.com/channel/UCe-2wkt7S-5jtVqS2r_K5vA"
-        },
-        "topics": [
-          "go",
-          "azure",
-          "windows",
-          "dev tooling"
-        ]
-      },
-      {
-        "name": "Francesc Campoy",
-        "social": "https://twitter.com/francesc",
-        "streams": {
-          "twitch": "",
-          "youtube": "https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw"
-        },
-        "topics": [
-          "go",
-          "dev tooling"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "c",
-    "streamers": [
-      {
-        "name": "Theodore Dubois",
-        "social": "https://twitter.com/tblodt",
-        "streams": {
-          "twitch": "https://www.twitch.tv/tbodt_",
-          "youtube": ""
-        },
-        "topics": [
-          "ios"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "c#",
-    "streamers": [
-      {
-        "name": "Jeff Fritz",
-        "social": "https://twitter.com/csharpfritz",
-        "streams": {
-          "twitch": "https://www.twitch.tv/videos/419753654",
-          "youtube": ""
-        },
-        "topics": [
-          "Dotnet",
-          "C#"
-        ]
-      },
-      {
-        "name": "Christopher Schipper",
-        "social": "",
-        "streams": {
-          "twitch": "https://www.twitch.tv/electrichavoc",
+          "twitch": "https://www.twitch.tv/stainlessio",
           "youtube": ""
         },
         "topics": null
-      }
-    ]
-  },
-  {
-    "category": "javascript",
-    "streamers": [
-      {
-        "name": "Michael Chan",
-        "social": "https://twitter.com/chantastic",
-        "streams": {
-          "twitch": "",
-          "youtube": "https://www.youtube.com/channel/UCXpmUxvG37qpckRHdkstf5w"
-        },
-        "topics": [
-          "react",
-          "javascript",
-          "web"
-        ]
       },
       {
-        "name": "Kassandra Perch",
-        "social": "https://twitter.com/nodebotanist",
+        "name": "Ryan Levick",
+        "social": "https://twitter.com/ryan_levick",
         "streams": {
-          "twitch": "https://www.twitch.tv/nodebotanist",
+          "twitch": "https://www.twitch.tv/ryanlevick",
           "youtube": ""
         },
         "topics": [
-          "hardware",
-          "IOT",
-          "robotics"
-        ]
-      },
-      {
-        "name": "Erik Guzman",
-        "social": "https://twitter.com/talk2MeGooseman",
-        "streams": {
-          "twitch": "https://www.twitch.tv/talk2megooseman",
-          "youtube": ""
-        },
-        "topics": [
-          "javascript",
-          "web"
-        ]
-      },
-      {
-        "name": "Suz Hinton",
-        "social": "https://twitter.com/noopkat",
-        "streams": {
-          "twitch": "https://www.twitch.tv/noopkat",
-          "youtube": "https://www.youtube.com/channel/UCoFU24KMXmCi4Sl3KIFPSVg"
-        },
-        "topics": [
-          "IoT",
-          "web",
-          "hardware",
-          "3D",
-          "node.js",
-          "javascript"
-        ]
-      },
-      {
-        "name": "Feross Aboukhadijeh",
-        "social": "https://twitter.com/feross",
-        "streams": {
-          "twitch": "https://www.twitch.tv/ferossity",
-          "youtube": ""
-        },
-        "topics": [
-          "javascript",
-          "web",
-          "node.js",
-          "frameworks",
-          "dev tooling"
-        ]
-      },
-      {
-        "name": "Thorsten Lorenz",
-        "social": "https://twitter.com/thlorenz",
-        "streams": {
-          "twitch": "https://www.twitch.tv/thlorenz",
-          "youtube": ""
-        },
-        "topics": [
-          "node.js",
-          "module development",
-          "dev tooling",
-          "web",
-          "javascript"
-        ]
-      },
-      {
-        "name": "Shirley Wu",
-        "social": "https://twitter.com/sxywu",
-        "streams": {
-          "twitch": "https://www.twitch.tv/sxywu",
-          "youtube": ""
-        },
-        "topics": [
-          "Data Visualisation",
-          "React",
-          "javascript"
-        ]
-      },
-      {
-        "name": "Sean Larkin",
-        "social": "https://twitter.com/TheLarkInn",
-        "streams": {
-          "twitch": "https://www.twitch.tv/thelarkinn",
-          "youtube": ""
-        },
-        "topics": [
-          "webpack",
-          "javascript",
-          "gaming"
-        ]
-      },
-      {
-        "name": "Kyle Shevlin",
-        "social": "https://twitter.com/kyleshevlin",
-        "streams": {
-          "twitch": "https://www.twitch.tv/kyleshevlin",
-          "youtube": ""
-        },
-        "topics": [
-          "React",
-          "Functional Javascript",
-          "Web"
-        ]
-      },
-      {
-        "name": "Brian Clark",
-        "social": "https://twitter.com/_clarkio",
-        "streams": {
-          "twitch": "https://www.twitch.tv/clarkio",
-          "youtube": ""
-        },
-        "topics": [
-          "node.js",
-          "javascript",
-          "iot",
-          "web",
-          "swift"
-        ]
-      },
-      {
-        "name": "Yosh",
-        "social": "https://twitter.com/yoshuawuyts",
-        "streams": {
-          "twitch": "https://www.twitch.tv/yoshuawuyts",
-          "youtube": ""
-        },
-        "topics": [
-          "node.js",
-          "javascript",
-          "choo",
-          "tooling development"
-        ]
-      },
-      {
-        "name": "Tierney Cyren",
-        "social": "https://twitter.com/bitandbang",
-        "streams": {
-          "twitch": "https://www.twitch.tv/bitandbang",
-          "youtube": ""
-        },
-        "topics": [
-          "node.js",
-          "javascript",
-          "oss"
-        ]
-      },
-      {
-        "name": "MPJ",
-        "social": "https://twitter.com/mpjme",
-        "streams": {
-          "twitch": "https://www.twitch.tv/videos/420159934",
-          "youtube": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"
-        },
-        "topics": [
-          "javascript",
-          "node.js",
-          "web",
-          "dev tooling"
+          "Runtime",
+          "Async",
+          "Wasm"
         ]
       }
     ]
@@ -382,6 +396,32 @@
     "category": "security",
     "streamers": [
       {
+        "name": "Derek Rook",
+        "social": "https://twitter.com/_r00k_",
+        "streams": {
+          "twitch": "https://www.twitch.tv/r00k_infosec",
+          "youtube": "https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists"
+        },
+        "topics": [
+          "kendo",
+          "security",
+          "hacking",
+          "gaming"
+        ]
+      },
+      {
+        "name": "Rob Fuller",
+        "social": "https://twitter.com/mubix",
+        "streams": {
+          "twitch": "https://www.twitch.tv/mub1x",
+          "youtube": "https://www.youtube.com/mubix"
+        },
+        "topics": [
+          "security",
+          "hacking"
+        ]
+      },
+      {
         "name": "Tanya Janca",
         "social": "https://twitter.com/shehackspurple",
         "streams": {
@@ -395,18 +435,6 @@
           "devops",
           "appsec",
           "dotnet"
-        ]
-      },
-      {
-        "name": "Rob Fuller",
-        "social": "https://twitter.com/mubix",
-        "streams": {
-          "twitch": "https://www.twitch.tv/mub1x",
-          "youtube": "https://www.youtube.com/mubix"
-        },
-        "topics": [
-          "security",
-          "hacker"
         ]
       }
     ]
