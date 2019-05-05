@@ -18,7 +18,7 @@ gen: ## Generate files
 	go run main.go
 
 .PHONY: publish
-	PUBLISH_DATETIME := $(shell date)
+PUBLISH_DATETIME := $(shell date)
 publish: ## Publish files
 	git add README.md awesome-streamers.json
 	git commit -m "Published $(PUBLISH_DATETIME)"
