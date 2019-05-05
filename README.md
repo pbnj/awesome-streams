@@ -17,20 +17,20 @@
 ## C
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |Theodore Dubois|[Twitter](https://twitter.com/tblodt)|[Twitch](https://www.twitch.tv/tbodt_)||[ios]|
 
 ## C#
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |Christopher Schipper||[Twitch](https://www.twitch.tv/electrichavoc)||[]|
 |Jeff Fritz|[Twitter](https://twitter.com/csharpfritz)|[Twitch](https://www.twitch.tv/videos/419753654)||[Dotnet C#]|
 
 ## Go
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |Brian Ketelsen|[Twitter](https://twitter.com/bketelsen)|[Twitch](https://www.twitch.tv/bketelsen)|[YouTube](https://www.youtube.com/channel/UCe-2wkt7S-5jtVqS2r_K5vA)|[go azure windows dev tooling]|
 |Francesc Campoy|[Twitter](https://twitter.com/francesc)||[YouTube](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw)|[go dev tooling]|
 |Heptio TGIK|||[YouTube](https://www.youtube.com/channel/UCjQU5ZI2mHswy7OOsii_URg)|[go kubernetes cloud native]|
@@ -39,7 +39,7 @@
 ## Javascript
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |Brian Clark|[Twitter](https://twitter.com/_clarkio)|[Twitch](https://www.twitch.tv/clarkio)||[node.js javascript iot web swift]|
 |Daniel Shiffman|[Twitter](https://twitter.com/shiffman)||[YouTube](https://www.youtube.com/user/shiffman)|[javascript web game development data visualization]|
 |Erik Guzman|[Twitter](https://twitter.com/talk2MeGooseman)|[Twitch](https://www.twitch.tv/talk2megooseman)||[javascript web]|
@@ -58,7 +58,7 @@
 ## Rust
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |David Pedersen|[Twitter](https://twitter.com/davidpdrsn)|[Twitch](https://www.twitch.tv/davidpdrsn)|[YouTube](https://www.youtube.com/channel/UCDmSWx6SK0zCU2NqPJ0VmDQ)|[Web Dev Utils]|
 |Ferris|[Twitter](https://twitter.com/ferristweetsnow)|[Twitch](https://www.twitch.tv/ferrisstreamsstuff)||[Game Emulators]|
 |Jon Gjengset|[Twitter](https://twitter.com/jonhoo)||[YouTube](https://www.youtube.com/c/JonGjengset)|[Networking Async Porting]|
@@ -69,13 +69,13 @@
 ## Scala
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |Holden Karau|[Twitter](https://twitter.com/holdenkarau)|[Twitch](https://www.twitch.tv/holdenkarau)||[scala spark java python beam]|
 
 ## Security
 
 |Name|Social|Twitch|YouTube|Topics|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |Derek Rook|[Twitter](https://twitter.com/_r00k_)|[Twitch](https://www.twitch.tv/r00k_infosec)|[YouTube](https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists)|[kendo security hacking gaming]|
 |Rob Fuller|[Twitter](https://twitter.com/mubix)|[Twitch](https://www.twitch.tv/mub1x)|[YouTube](https://www.youtube.com/mubix)|[security hacking]|
 |Tanya Janca|[Twitter](https://twitter.com/shehackspurple)||[YouTube](https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ)|[security web azure devops appsec dotnet]|
