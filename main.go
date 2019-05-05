@@ -22,6 +22,17 @@ type Streamer struct {
 	Streams Streams  `json:"streams" yaml:"streams"`
 	Topics  []string `json:"topics" yaml:"topics"`
 }
+
+type Streams struct {
+	Twitch  string `json:"twitch" yaml:"twitch"`
+	YouTube string `json:"youtube" yaml:"youtube"`
+}
+
+func main() {
+	fin, err := os.Open("awesome-streamers.yaml")
+	if err != nil {
+		log.Fatalln("cannot open YAML file:", err)
+	}
 	defer fin.Close()
 
 	data, err := ioutil.ReadAll(fin)
