@@ -1,13 +1,18 @@
-.DEFAULT_GOAL = help
-
-.PHONY: help
-help: ## Print help
-
 .PHONY: all
-all: fmt gen ## Do all steps
+all: fmt-yaml gen fmt-markdown ## Do All The Steps!
 
 .PHONY: fmt
-fmt: ## Format yaml
+fmt: fmt-yaml fmt-markdown ## Format files
+
+.PHONY: fmt-markdown
+fmt-markdown: ## Format markdown files
+	prettier \
+		--write \
+		--parser markdown \
+		*.md
+
+.PHONY: fmt-yaml
+fmt-yaml: ## Format yaml
 	prettier \
 		--write \
 		--parser yaml \
@@ -18,8 +23,7 @@ gen: ## Generate files
 	go run main.go
 
 .PHONY: publish
-PUBLISH_DATETIME := $(shell date)
 publish: ## Publish files
 	git add README.md awesome-streamers.json
-	git commit -m "Published $(PUBLISH_DATETIME)"
+	git commit -m "Published $(shell date)"
 	git push origin master
