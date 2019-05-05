@@ -61,7 +61,7 @@ func main() {
 
 	json, err := json.MarshalIndent(ls, "", "  ")
 	if err != nil {
-		log.Fatalln("cannout marshal JSON:", err)
+		log.Fatalln("cannot marshal JSON:", err)
 	}
 
 	err = ioutil.WriteFile("awesome-streamers.json", json, 0644)
