@@ -111,6 +111,15 @@
 
 - category: javascript
   streamers:
+    - name: Daniel Shiffman
+      social: https://twitter.com/shiffman
+      streams:
+        youtube: https://www.youtube.com/user/shiffman
+      topics:
+        - javascript
+        - web
+        - game development
+        - data visualization
     - name: Michael Chan
       social: https://twitter.com/chantastic
       streams:
