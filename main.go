@@ -3,12 +3,12 @@ package main
 import (
 	"bufio"
 	"encoding/json"
+	"html/template"
 	"io/ioutil"
 	"log"
 	"os"
 	"sort"
 	"strings"
-	"text/template"
 
 	"gopkg.in/yaml.v2"
 )
