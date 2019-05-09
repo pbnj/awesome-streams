@@ -109,6 +109,16 @@
           - visual studio
           - azure
 
+- category: java
+  streamers:
+    - name: Jonathan Blow
+      social: https://twitter.com/Jonathan_Blow
+      streams:
+        twitch: https://www.twitch.tv/naysayer88
+        youtube: https://www.youtube.com/user/jblow888
+      topics:
+        - game development
+
 - category: javascript
   streamers:
     - name: Daniel Shiffman
