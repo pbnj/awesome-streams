@@ -7,6 +7,7 @@
 - [C](#c)
 - [C♯](#c♯)
 - [Go](#go)
+- [Java](#java)
 - [Javascript](#javascript)
 - [Rust](#rust)
 - [Scala](#scala)
@@ -33,6 +34,12 @@
 | Francesc Campoy | [Twitter](https://twitter.com/francesc)  |                                            | [YouTube](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw) | [go dev tooling]               |
 | Heptio TGIK     |                                          |                                            | [YouTube](https://www.youtube.com/channel/UCjQU5ZI2mHswy7OOsii_URg) | [go kubernetes cloud native]   |
 | Mark Mandel     | [Twitter](https://twitter.com/neurotic)  | [Twitch](https://www.twitch.tv/markmandel) | [YouTube](https://www.youtube.com/user/marksmandel)                 | [kubernetes game development]  |
+
+## Java
+
+| Name          | Social                                       | Twitch                                     | YouTube                                          | Topics             |
+| ------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------------ | ------------------ |
+| Jonathan Blow | [Twitter](https://twitter.com/Jonathan_Blow) | [Twitch](https://www.twitch.tv/naysayer88) | [YouTube](https://www.youtube.com/user/jblow888) | [game development] |
 
 ## Javascript
 
