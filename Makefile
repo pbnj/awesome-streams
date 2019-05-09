@@ -21,6 +21,7 @@ fmt-yaml: ## Format yaml
 .PHONY: gen
 gen: ## Generate files
 	go run main.go
+	$(MAKE) fmt-markdown
 
 .PHONY: publish
 publish: ## Publish files
