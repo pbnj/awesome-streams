@@ -265,6 +265,7 @@
     - name: Tanya Janca
       social: https://twitter.com/shehackspurple
       streams:
+        twitch: https://www.twitch.tv/shehackspurple
         youtube: https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ
       topics:
         - security
