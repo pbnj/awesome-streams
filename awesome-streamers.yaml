@@ -260,6 +260,18 @@
         - python
         - beam
 
+- category: zig
+  streamers:
+    - name: Andrew Kelley
+      social: https://twitter.com/andy_kelley
+      streams:
+        twitch: https://www.twitch.tv/andrewrok/
+      topics:
+        - zig
+        - c
+        - video game development
+        - programming language development
+
 - category: security
   streamers:
     - name: Tanya Janca
