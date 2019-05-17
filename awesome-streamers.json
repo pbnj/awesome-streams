@@ -441,7 +441,7 @@
         "name": "Tanya Janca",
         "social": "https://twitter.com/shehackspurple",
         "streams": {
-          "twitch": "",
+          "twitch": "https://www.twitch.tv/shehackspurple",
           "youtube": "https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ"
         },
         "topics": [
@@ -451,6 +451,25 @@
           "devops",
           "appsec",
           "dotnet"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "zig",
+    "streamers": [
+      {
+        "name": "Andrew Kelley",
+        "social": "https://twitter.com/andy_kelley",
+        "streams": {
+          "twitch": "https://www.twitch.tv/andrewrok/",
+          "youtube": ""
+        },
+        "topics": [
+          "zig",
+          "c",
+          "video game development",
+          "programming language development"
         ]
       }
     ]

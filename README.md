@@ -12,6 +12,7 @@
 - [Rust](#rust)
 - [Scala](#scala)
 - [Security](#security)
+- [Zig](#zig)
 
 ## C
 
@@ -79,8 +80,14 @@
 
 ## Security
 
-| Name        | Social                                        | Twitch                                       | YouTube                                                                       | Topics                                    |
-| ----------- | --------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------- |
-| Derek Rook  | [Twitter](https://twitter.com/_r00k_)         | [Twitch](https://www.twitch.tv/r00k_infosec) | [YouTube](https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists) | [kendo security hacking gaming]           |
-| Rob Fuller  | [Twitter](https://twitter.com/mubix)          | [Twitch](https://www.twitch.tv/mub1x)        | [YouTube](https://www.youtube.com/mubix)                                      | [security hacking]                        |
-| Tanya Janca | [Twitter](https://twitter.com/shehackspurple) |                                              | [YouTube](https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ)           | [security web azure devops appsec dotnet] |
+| Name        | Social                                        | Twitch                                         | YouTube                                                                       | Topics                                    |
+| ----------- | --------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------- |
+| Derek Rook  | [Twitter](https://twitter.com/_r00k_)         | [Twitch](https://www.twitch.tv/r00k_infosec)   | [YouTube](https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists) | [kendo security hacking gaming]           |
+| Rob Fuller  | [Twitter](https://twitter.com/mubix)          | [Twitch](https://www.twitch.tv/mub1x)          | [YouTube](https://www.youtube.com/mubix)                                      | [security hacking]                        |
+| Tanya Janca | [Twitter](https://twitter.com/shehackspurple) | [Twitch](https://www.twitch.tv/shehackspurple) | [YouTube](https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ)           | [security web azure devops appsec dotnet] |
+
+## Zig
+
+| Name          | Social                                     | Twitch                                     | YouTube | Topics                                                          |
+| ------------- | ------------------------------------------ | ------------------------------------------ | ------- | --------------------------------------------------------------- |
+| Andrew Kelley | [Twitter](https://twitter.com/andy_kelley) | [Twitch](https://www.twitch.tv/andrewrok/) |         | [zig c video game development programming language development] |
