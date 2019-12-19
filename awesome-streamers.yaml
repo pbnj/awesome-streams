@@ -294,13 +294,3 @@
       topics:
         - security
         - hacking
-    - name: Derek Rook
-      social: https://twitter.com/_r00k_
-      streams:
-        twitch: https://www.twitch.tv/r00k_infosec
-        youtube: https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists
-      topics:
-        - kendo
-        - security
-        - hacking
-        - gaming
