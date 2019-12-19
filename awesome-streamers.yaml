@@ -20,9 +20,7 @@
       streams:
         youtube: https://www.youtube.com/c/JonGjengset
       topics:
-        - Networking
-        - Async
-        - Porting
+        - Rust
     - name: Ryan Levick
       social: https://twitter.com/ryan_levick
       streams:
