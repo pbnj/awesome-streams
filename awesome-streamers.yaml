@@ -294,3 +294,11 @@
       topics:
         - security
         - hacking
+    - name: MyDevSecOps
+      social: https://twitter.com/mydevsecops
+      streams:
+        youtube: https://www.youtube.com/channel/UCFf01c7VwZZWCRJwmcn5_DQ
+      topics:
+        - devops
+        - security
+        - devsecops
