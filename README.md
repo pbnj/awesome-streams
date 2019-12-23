@@ -67,7 +67,7 @@
 | --------------------- | ---------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------- |
 | David Pedersen        | [Twitter](https://twitter.com/davidpdrsn)      | [Twitch](https://www.twitch.tv/davidpdrsn)         | [YouTube](https://www.youtube.com/channel/UCDmSWx6SK0zCU2NqPJ0VmDQ) | [Web Dev Utils]                                 |
 | Ferris                | [Twitter](https://twitter.com/ferristweetsnow) | [Twitch](https://www.twitch.tv/ferrisstreamsstuff) |                                                                     | [Game Emulators]                                |
-| Jon Gjengset          | [Twitter](https://twitter.com/jonhoo)          |                                                    | [YouTube](https://www.youtube.com/c/JonGjengset)                    | [Networking Async Porting]                      |
+| Jon Gjengset          | [Twitter](https://twitter.com/jonhoo)          |                                                    | [YouTube](https://www.youtube.com/c/JonGjengset)                    | [Rust]                                          |
 | Micah Elizabeth Scott | [Twitter](https://twitter.com/scanlime)        | [Twitch](https://twitch.tv/scanlime)               | [YouTube](https://www.youtube.com/user/micahjd)                     | [reverse engineering rust c&#43;&#43; hardware] |
 | Russell               | [Twitter](https://twitter.com/stainlessio)     | [Twitch](https://www.twitch.tv/stainlessio)        |                                                                     | []                                              |
 | Ryan Levick           | [Twitter](https://twitter.com/ryan_levick)     | [Twitch](https://www.twitch.tv/ryanlevick)         |                                                                     | [Runtime Async Wasm]                            |
@@ -80,11 +80,11 @@
 
 ## Security
 
-| Name        | Social                                        | Twitch                                         | YouTube                                                                       | Topics                                    |
-| ----------- | --------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------- |
-| Derek Rook  | [Twitter](https://twitter.com/_r00k_)         | [Twitch](https://www.twitch.tv/r00k_infosec)   | [YouTube](https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists) | [kendo security hacking gaming]           |
-| Rob Fuller  | [Twitter](https://twitter.com/mubix)          | [Twitch](https://www.twitch.tv/mub1x)          | [YouTube](https://www.youtube.com/mubix)                                      | [security hacking]                        |
-| Tanya Janca | [Twitter](https://twitter.com/shehackspurple) | [Twitch](https://www.twitch.tv/shehackspurple) | [YouTube](https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ)           | [security web azure devops appsec dotnet] |
+| Name        | Social                                        | Twitch                                         | YouTube                                                             | Topics                                    |
+| ----------- | --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------- |
+| MyDevSecOps | [Twitter](https://twitter.com/mydevsecops)    |                                                | [YouTube](https://www.youtube.com/channel/UCFf01c7VwZZWCRJwmcn5_DQ) | [devops security devsecops]               |
+| Rob Fuller  | [Twitter](https://twitter.com/mubix)          | [Twitch](https://www.twitch.tv/mub1x)          | [YouTube](https://www.youtube.com/mubix)                            | [security hacking]                        |
+| Tanya Janca | [Twitter](https://twitter.com/shehackspurple) | [Twitch](https://www.twitch.tv/shehackspurple) | [YouTube](https://www.youtube.com/channel/UCyxbNw11fMUgoR3XpVYVPIQ) | [security web azure devops appsec dotnet] |
 
 ## Zig
 

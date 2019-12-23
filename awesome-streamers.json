@@ -345,9 +345,7 @@
           "youtube": "https://www.youtube.com/c/JonGjengset"
         },
         "topics": [
-          "Networking",
-          "Async",
-          "Porting"
+          "Rust"
         ]
       },
       {
@@ -412,17 +410,16 @@
     "category": "security",
     "streamers": [
       {
-        "name": "Derek Rook",
-        "social": "https://twitter.com/_r00k_",
+        "name": "MyDevSecOps",
+        "social": "https://twitter.com/mydevsecops",
         "streams": {
-          "twitch": "https://www.twitch.tv/r00k_infosec",
-          "youtube": "https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA/playlists"
+          "twitch": "",
+          "youtube": "https://www.youtube.com/channel/UCFf01c7VwZZWCRJwmcn5_DQ"
         },
         "topics": [
-          "kendo",
+          "devops",
           "security",
-          "hacking",
-          "gaming"
+          "devsecops"
         ]
       },
       {
