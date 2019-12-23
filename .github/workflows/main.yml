@@ -1,0 +1,47 @@
+name: CI
+
+on: [ push, pull_request ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    
+    - name: Install Dependencies
+      run: |
+        apt-get update
+        apt-get install -y make
+        
+    - name: Install Go
+      env:
+        GO_VERSION: stable
+      run: eval "$(curl -sL https://raw.githubusercontent.com/travis-ci/gimme/master/gimme | GIMME_GO_VERSION=${GO_VERSION} bash)"
+
+    - name: Install Node.js
+      env:
+        NVM_VERSION: v0.35.2
+      run: |
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh | bash
+        source $HOME/.nvm/nvm.sh
+        nvm install --lts
+
+    - name: Generate Files
+      run: |
+        make gen
+        
+    - name: Publish Repo
+      env:
+        GITHUB_TOKEN: ""
+      run: |
+        if [ -z "${GITHUB_TOKEN}" ]; then
+            echo "Set the GITHUB_TOKEN env variable."
+            exit 1
+        fi
+        GITHUB_URL="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git status
+        git add README.md awesome-streamers.json
+        git commit -m "Published $(shell date)"
+        git push "${GITHUB_URL}" master:master
