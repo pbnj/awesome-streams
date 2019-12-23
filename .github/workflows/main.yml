@@ -9,12 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    
-    - name: Install Dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y make
-        
+            
     - name: Install Go
       env:
         GO_VERSION: stable
@@ -34,7 +29,8 @@ jobs:
         
     - name: Publish Repo
       run: |
-        GITHUB_URL="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         git status
         git add README.md awesome-streamers.json
         git commit -m "Published $(shell date)"
