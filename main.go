@@ -13,6 +13,11 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
+const (
+	StreamYAML = "streams.yaml"
+	StreamJSON = "streams.json"
+)
+
 type LiveStream struct {
 	Category  string     `json:"category" yaml:"category"`
 	Streamers []Streamer `json:"streamers" yaml:"streamers"`
@@ -31,7 +36,7 @@ type Streams struct {
 }
 
 func main() {
-	fin, err := os.Open("awesome-streamers.yaml")
+	fin, err := os.Open(StreamYAML)
 	if err != nil {
 		log.Fatalln("cannot open YAML file:", err)
 	}
@@ -64,7 +69,7 @@ func main() {
 		log.Fatalln("cannot marshal JSON:", err)
 	}
 
-	err = ioutil.WriteFile("awesome-streamers.json", json, 0644)
+	err = ioutil.WriteFile(StreamJSON, json, 0644)
 	if err != nil {
 		log.Fatalln("cannot write JSON:", err)
 	}

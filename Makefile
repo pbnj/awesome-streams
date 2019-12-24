@@ -1,7 +1,9 @@
-PROJECT := awesome-streams
+PROJECT_NAME := awesome-streams
+STREAMS_YAML := streams.yaml
+STREAMS_JSON := streams.json
+
 
 .DEFAULT_GOAL := help
-
 
 .PHONY: help
 help: ## Print help message
@@ -17,14 +19,11 @@ dev: ## Launch dev container
 		pbnj:dev
 
 .PHONY: all
-all: fmt-yaml gen fmt-markdown ## Do All The Steps!
+all: fmt-yaml lint-yaml gen fmt-markdown ## Do All The Steps!
 
 .PHONY: lint-yaml
 lint-yaml: ## Lint yaml file
-	yamllint awesome-streamers.yaml
-
-.PHONY: fmt
-fmt: fmt-yaml fmt-markdown ## Format files
+	yamllint $(STREAMS_YAML)
 
 .PHONY: fmt-markdown
 fmt-markdown: ## Format markdown files
@@ -38,7 +37,7 @@ fmt-yaml: ## Format yaml
 	npx prettier \
 		--write \
 		--parser yaml \
-		awesome-streamers.yaml
+		$(STREAMS_YAML)
 
 .PHONY: gen
 gen: ## Generate files
