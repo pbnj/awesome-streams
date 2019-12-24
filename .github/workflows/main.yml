@@ -7,35 +7,33 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-            
-    - name: Install Go
-      env:
-        GO_VERSION: stable
-      run: eval "$(curl -sL https://raw.githubusercontent.com/travis-ci/gimme/master/gimme | GIMME_GO_VERSION=${GO_VERSION} bash)"
+    - name: Check out code
+      uses: actions/checkout@v1
 
-    - name: Install Node.js
-      env:
-        NVM_VERSION: v0.35.2
+    - name: Lint YAML
+      uses: docker://python:latest
       run: |
-        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh | bash
-        source $HOME/.nvm/nvm.sh
-        nvm install --lts
+        pip install yamllint
+        make lint-yaml
 
     - name: Generate Files
-      run: |
-        make gen
-        
+      uses: docker://golang:latest
+      run: make gen
+
+    - name: Format Files
+      uses: docker://node:latest
+      run: make fmt-yaml fmt-markdown
+
     - name: Publish Repo
+      runs-on: ubuntu-latest
       run: |
         GITHUB_URL="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git status
-        git add README.md awesome-streamers.json
-        git commit -m "Published $(shell date)"
-        git push "${GITHUB_URL}" master:master
+        if [ -n "$(git status --porcelain)" ]; then
+            git add README.md awesome-streamers.json
+            git commit -m "Published $(shell date)"
+            git push "${GITHUB_URL}" master:master
+        fi

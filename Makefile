@@ -2,6 +2,11 @@ PROJECT := awesome-streams
 
 .DEFAULT_GOAL := help
 
+
+.PHONY: help
+help: ## Print help message
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
 .PHONY: dev
 dev: ## Launch dev container
 	@docker run \
@@ -13,6 +18,10 @@ dev: ## Launch dev container
 
 .PHONY: all
 all: fmt-yaml gen fmt-markdown ## Do All The Steps!
+
+.PHONY: lint-yaml
+lint-yaml: ## Lint yaml file
+	yamllint awesome-streamers.yaml
 
 .PHONY: fmt
 fmt: fmt-yaml fmt-markdown ## Format files
@@ -34,14 +43,9 @@ fmt-yaml: ## Format yaml
 .PHONY: gen
 gen: ## Generate files
 	go run main.go
-	$(MAKE) fmt-markdown
 
 .PHONY: publish
 publish: ## Publish files
 	git add README.md awesome-streamers.json
 	git commit -m "Published $(shell date)"
-	git push origin master
-
-.PHONY: help
-help: ## Print help message
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+	git push "${GITHUB_URL}" master:master
